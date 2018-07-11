@@ -8,6 +8,9 @@ DESCRIPTION
 -----------
 
 
+![animation](images/animation.gif)
+
+
 A SPA that performs an SHA-256 analysis and compares files using https://github.com/herreriasjose/react-drag-drop-info
 
  
