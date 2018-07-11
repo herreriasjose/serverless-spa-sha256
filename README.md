@@ -1,18 +1,20 @@
 
-NAME
+Name
 ----
 
 SPA-SHA256
 
-DESCRIPTION
+Description
 -----------
 
 
 ![animation](images/animation.gif)
 
 
-A SPA that performs an SHA-256 analysis and compares files using https://github.com/herreriasjose/react-drag-drop-info
+A SPA that performs SHA-256 hash and check files using https://github.com/herreriasjose/react-drag-drop-info
 
+
+You can see it <a href="https://spa-sha256-d892f.firebaseapp.com/">in action here</a>.
  
 
 Installation
@@ -24,6 +26,7 @@ Usage
 -----
 
 ```bash
+npm install
 npm start
 ```
 
