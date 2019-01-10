@@ -42,8 +42,9 @@ class Layout extends Component {
       // <- AQUÍ
       hash = (
         <span>
+          <br/>
           <p className="resize1">
-            <strong>Locale File SHA-256: </strong>
+            <strong>Checked File SHA-256: </strong>
           </p>
           <p className="resize2">
             {this.state.hash[0]}
