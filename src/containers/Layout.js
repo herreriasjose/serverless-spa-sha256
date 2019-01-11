@@ -54,9 +54,9 @@ class Layout extends Component {
     }
 
     return (
-      <div className="Layout">
+      <div className="Layout ">
         <div>
-          <Box
+          <Box 
             handleDrop={this.handleDrop}
             boxId="1"
             droppable={this.state.droppable}

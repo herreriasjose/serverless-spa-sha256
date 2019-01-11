@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import Layout from "./containers/Layout";
+import Footer from "./Footer";
 
 import "./App.css";
 import "./bootstrap/css/bootstrap.min.css";
@@ -17,8 +18,8 @@ class App extends Component {
               <div className="col-1 col-sm-1 col-md-1 col-lg-4 col-xl-4" />
               <div className="col-10 col-sm-10 col-md-10 col-lg-4 col-xl-4">
                 <nav aria-label="breadcrumb">
-                  <ol class="breadcrumb">
-                    <li class="breadcrumb-item active" aria-current="page">
+                  <ol className="breadcrumb">
+                    <li className="breadcrumb-item active" aria-current="page">
                       Step 1: download the remote file
                     </li>
                   </ol>
@@ -41,7 +42,7 @@ class App extends Component {
               <div className="col-10 col-sm-10 col-md-10 col-lg-4 col-xl-4">
                 <a
                   href="REMOTEFILE.ZIP"
-                  className="btn btn-primary btn-lg w-75 resize1"
+                  className="btn btn-outline-primary w-75"
                 >
                   Download
                 </a>
@@ -59,8 +60,8 @@ class App extends Component {
               <div className="col-1 col-sm-1 col-md-1 col-lg-4 col-xl-4" />
               <div className="col-10 col-sm-10 col-md-10 col-lg-4 col-xl-4">
                 <nav aria-label="breadcrumb">
-                  <ol class="breadcrumb">
-                    <li class="breadcrumb-item active" aria-current="page">
+                  <ol className="breadcrumb">
+                    <li className="breadcrumb-item active" aria-current="page">
                       Step 2: drag it into the box
                     </li>
                   </ol>
@@ -78,9 +79,9 @@ class App extends Component {
               <div className="col-1 col-sm-1 col-md-1 col-lg-4 col-xl-4" />
               <div className="col-10 col-sm-10 col-md-10 col-lg-4 col-xl-4">
                 <nav aria-label="breadcrumb">
-                  <ol class="breadcrumb">
-                    <li class="breadcrumb-item active" aria-current="page">
-                      Step 3 (optional): check with a different file
+                  <ol className="breadcrumb">
+                    <li className="breadcrumb-item active" aria-current="page">
+                      Step 3: try with a different file
                     </li>
                   </ol>
                 </nav>
@@ -88,7 +89,8 @@ class App extends Component {
               <div className="col-1 col-sm-1 col-md-1 col-lg-4 col-xl-4" />
             </div>
           </div>
-        </span>
+        </span><br/>
+        <Footer/>
       </div>
     );
   }
