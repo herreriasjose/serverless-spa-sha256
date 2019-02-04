@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import Layout from "./containers/Layout";
 import Footer from "./Footer";
+import Info from "./Info";
 
 import "./App.css";
 import "./bootstrap/css/bootstrap.min.css";
@@ -9,9 +10,11 @@ import "./bootstrap/css/bootstrap.min.css";
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App col-md-12">
         <h2 className="text-primary p-2"> Integrity Checker Demo</h2>
+        <Info/>
         <br/>
+        
         <span>
           <div className="col-md-12">
             <div className="row">
@@ -20,7 +23,7 @@ class App extends Component {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item active" aria-current="page">
-                      Step 1: download the remote file
+                      <strong>Step 1:</strong> download the test file
                     </li>
                   </ol>
                 </nav>
@@ -62,7 +65,7 @@ class App extends Component {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item active" aria-current="page">
-                      Step 2: drag it into the box
+                     <strong>Step 2:</strong> drag the downloaded file into the box
                     </li>
                   </ol>
                 </nav>
@@ -81,7 +84,7 @@ class App extends Component {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item active" aria-current="page">
-                      Step 3: try with a different file
+                     <strong>Step 3:</strong> try dragging in a different file
                     </li>
                   </ol>
                 </nav>
